@@ -87,10 +87,15 @@ html, body {
   /*Expertise Section*/
   .cards {
     background-color: #ffc200;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   
-  .col {
-  
+  .col {  
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   #expertise {
@@ -117,4 +122,3 @@ html, body {
     margin-bottom: 0;
     margin-left: 20px;
   }
-  
